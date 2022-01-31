@@ -12,3 +12,7 @@ ALTER TABLE [dbo].[ITENS VENDIDOS]  WITH CHECK ADD  CONSTRAINT [FK_ITENS VENDIDO
 REFERENCES [dbo].[PRODUTOS] ([CÓDIGO])
 GO
 
+--O comando é alter table, tabela de notas, with check add constraint, estou adicionando uma restrição, 
+--fk_notas_clientes. Uso no nome as duas tabelas. Agora vou dizer o campo da tabela notas em que o relacionamento chega. 
+--E finalmente coloco reference e o nome da tabela onde está partindo o relacionamento. Entre parênteses, o campo de onde 
+--o relacionamento está saindo.
